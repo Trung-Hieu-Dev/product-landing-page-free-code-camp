@@ -1,0 +1,30 @@
+/* Reponsive */
+@media (max-width: 480px) {
+    .header-left, .header-right {
+        width: 100%;
+    }
+
+    .header-right {
+        order: 0;
+    }
+
+    .header-left {
+        order: 1;
+        text-align: center;
+        padding-left: 20px; /*trừ 30px lúc đầu còn 10px -> mỗi lề 5px*/
+    }
+
+    .header-left h1 {
+        display: none;
+    }
+
+    .feature {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .flex input {
+        width: 100%;
+        margin: 5px 10px;
+    }
+}
